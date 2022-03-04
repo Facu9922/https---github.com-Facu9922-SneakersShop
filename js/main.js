@@ -1,5 +1,5 @@
 //JSON ZAPATILLAS
-const PROJSON = "../JSON/zapatillas.json"
+const PROJSON = "https://raw.githubusercontent.com/Facu9922/https---github.com-Facu9922-SneakersShop/master/JSON/zapatillas.json"
 const tbody = document.querySelector('.tbody')
 
 let misZapas= [];
