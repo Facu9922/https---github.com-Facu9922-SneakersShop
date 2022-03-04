@@ -131,7 +131,7 @@ renderCarrito()
 
 function renderCarrito(){
   console.log(carrito)
-  tbody.innerHTML +=''
+  tbody.innerHTML =''
   carrito.map(item => {
     const tr = document.createElement('tr')
     tr.classList.add('ItemCarrito')
