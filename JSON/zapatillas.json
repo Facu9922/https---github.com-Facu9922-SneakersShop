@@ -1,0 +1,79 @@
+[
+    {
+      "marca": "Nike",
+      "modelo": "AF 1 HI UT 2.0",
+      "precio": 12000,
+      "id": 1,
+      
+      "imagen": {
+        "color1" : "img/nikedunk.png",
+        "color2" : "img/nikedunk1.png"
+       }
+    },
+    {
+      "marca": "Nike",
+      "modelo": "Airmax 97",
+      "precio": 9000,
+      "id": 2,
+      
+      "imagen": {
+        "color1" : "img/airmax97.png",
+        "color2" : "img/airmax97R.png"
+       }
+    },
+    {
+      "marca": "Jordan",
+      "modelo": "6-17-23",
+      "precio": 12000,
+      "id": 3,
+      
+      "imagen": {
+        "color1" : "img/jordan1.png",
+        "color2" : "img/jordan2.png"
+       }
+    },
+    {
+      "marca": "Jordan",
+      "modelo": "Flight Club 91",
+      "precio": 14000,
+      "id": 4,
+     
+      "imagen": {
+        "color1" : "img/flightclub91.png",
+        "color2" : "img/flightclub91B.png"
+       }
+    },
+    {
+      "marca": "Jordan",
+      "modelo": "AJ 1 Mid Se",
+      "precio": 16000,
+      "id": 5,
+      
+      
+      "imagen": {
+        "color1" : "img/aj1midse.png",
+        "color2" : "img/aj1midse2.png"
+       }
+    },
+    {
+      "marca": "Jordan",
+      "modelo": "Lebron 19",
+      "precio": 26000,
+      "id": 6,
+      "imagen": {
+        "color1" : "img/lebron.png",
+        "color2" : "img/lebronb.png"
+       }
+      },  
+    {
+      "marca": "Jordan",
+      "modelo": "Jordan AJ XXXVI",
+      "precio": 36000,
+      "id": 7,
+      
+      "imagen": {
+        "color1" : "img/jordaaj.png",
+        "color2" : "img/jordaaj2.png"
+       }
+    }
+  ]

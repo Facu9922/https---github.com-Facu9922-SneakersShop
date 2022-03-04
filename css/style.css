@@ -1,0 +1,84 @@
+.tarjeta{
+    width: 50px;
+    padding-bottom: 5px;
+}
+
+.btn1{
+    background-color: white;
+    width: 300px;
+    height: 120px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: flex;
+    justify-content: center;
+    
+}
+.btn1 a:hover{
+    background-color: blue;
+}
+.btnpay{
+    width: 200px;
+    border-radius: 20px;
+    
+    
+    
+
+}
+
+.portada{
+    background-image:   url("/img/promonike.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 2000px;
+    height: 600px;
+}
+.titulo{
+    font-weight: lighter;
+    position: absolute;
+    
+    font-style: normal;
+    text-align: center;
+    font-weight: 100;
+    top: 40%;
+    left: 60%;
+    font-size: 3.5vw;
+    
+}
+.jordant{
+    font-weight: lighter;
+    position: relative;
+    left: 30%;
+    top: 70%;
+    font-size: 3.0vw ;
+    font-weight: 100;
+    
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    color: black;
+    margin: 0 20px 20px 0; 
+    letter-spacing: 0.5vw;
+    
+}
+.nike{
+    background-color: whitesmoke;
+}
+
+.jordan{
+    background-image: url("/img/promojordan.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 2%;
+}
+
+.footer{
+    color: aliceblue;
+    background-color: black;
+    background-size: cover;
+}
+.total{
+    font-weight: bolder;
+    font-size: x-large;
+}
