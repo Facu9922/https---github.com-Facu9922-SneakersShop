@@ -195,9 +195,10 @@ window.onload = function(){
 }
 
 function comprar(){
-  location.href = "resumenCarrito.html";
+  
   const carritoJson = JSON.stringify(carrito);
   localStorage.setItem("carrito", carritoJson);
+  location.href = "resumenCarrito.html";
   
   
   

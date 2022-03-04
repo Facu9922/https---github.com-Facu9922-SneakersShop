@@ -1,7 +1,7 @@
-carrito = JSON.parse(localStorage.getItem("carrito"));
+carrito1 = JSON.parse(localStorage.getItem("carrito"));
 precioTotal = 0;
 
-for (mostrarCarrito of carrito) {
+for (mostrarCarrito of carrito1) {
     $('#carro').append(`<div class="col items">
                                             <img class="w-25"src="${mostrarCarrito.img}">
                                             </img>
