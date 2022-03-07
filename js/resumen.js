@@ -16,7 +16,7 @@ for (mostrarCarrito of carrito1) {
 $('#totalCarro').append(`<p class="text-center total">Total: $${precioTotal}</p>`);
 
 
-function pago1(){
+ function pago1(){
 $("#pago").append(
 
     `<div class="d-flex justify-content-center">
@@ -37,15 +37,13 @@ $("#pago").append(
            
     </div>
     
-
-
-    
-
-    
     `
-    
+   
 )
-}
+document.getElementById("tarjetas").disabled = true;
+}  
+
+
 precioTotalSeisCoutas = precioTotal/6
 precioTotalDoceCoutas = precioTotal/12
 precioTotalVeinticuatroCoutas = precioTotal/24
@@ -63,6 +61,7 @@ function pago2(){
         
         `
     )
+    document.getElementById("disable").disabled = true;
 }
 
 

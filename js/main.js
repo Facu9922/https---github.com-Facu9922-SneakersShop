@@ -119,7 +119,7 @@ function addZapaCart(nuevoZapa){
       const inputValor = inputElemento[i]
       inputValor.value++;
       totalCarrito()
-    /* return null; */
+    return null; 
   }
 }
 carrito.push(nuevoZapa)
